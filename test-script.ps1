@@ -1,1 +1,1 @@
-Write-Output "Intune lab test script"
+Write-Output "Intune lab test scripts"
