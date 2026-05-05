@@ -1,0 +1,7 @@
+$autopilot = Get-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Provisioning\Diagnostics\AutoPilot" -ErrorAction SilentlyContinue
+
+if ($autopilot) {
+    Write-Output "Device is Autopilot registered"
+} else {
+    Write-Output "Device is NOT Autopilot registered"
+}
