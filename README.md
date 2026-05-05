@@ -1,12 +1,6 @@
-# Intune MD-102 Lab
+## Scripts included
 
-This repository contains basic scripts and notes for Microsoft Intune, Autopilot and Windows deployment scenarios.
-
-## Topics
-- Autopilot deployment
-- BitLocker policies
-- Application deployment (Win32)
-- PowerShell automation
-
-## Author
-Lab environment for learning and testing
+- Get-BitLockerStatus.ps1 → Checks encryption status
+- Install-7zip.ps1 → Silent app installation example
+- Check-Autopilot.ps1 → Detects Autopilot registration
+- Create-LocalAdmin.ps1 → Creates local admin account
