@@ -1,0 +1,4 @@
+Add-AppxProvisionedPackage -Online `
+ -PackagePath "C:\Path\App.msixbundle" `
+ -DependencyPackagePath "C:\Path\Dependency.appx" `
+ -SkipLicense
