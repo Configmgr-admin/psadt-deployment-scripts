@@ -3,5 +3,5 @@ $autopilot = Get-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Provisioning\Diagn
 if ($autopilot) {
     Write-Output "Device is Autopilot registered"
 } else {
-    Write-Output "Device is NOT Autopilot registered"
+    Write-Output "The device is NOT Autopilot registered"
 }
