@@ -1,7 +1,7 @@
-$username = "LocalAdminTest"
+$username = "LocalAdminTestOne"
 $password = ConvertTo-SecureString "P@ssw0rd123!" -AsPlainText -Force
 
-New-LocalUser -Name $username -Password $password -FullName "Test Admin" -Description "MD-102 Lab Account"
+New-LocalUser -Name $username -Password $password -FullName "Test Admin" -Description "MD-102 Labs Account"
 Add-LocalGroupMember -Group "Administrators" -Member $username
 
-Write-Output "Local admin created"
+Write-Output "Local admin created right now"
