@@ -1,0 +1,6 @@
+$installer = ".\7z.exe"
+$args = "/S"
+
+Start-Process -FilePath $installer -ArgumentList $args -Wait -NoNewWindow
+
+Write-Output "7-Zip installation completed"
